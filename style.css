@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+.hero {
+  background: url('images/beach.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background: #ff6600;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.btn:hover {
+  background: #e65c00;
+}
+.packages {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f7f7f7;
+}
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}

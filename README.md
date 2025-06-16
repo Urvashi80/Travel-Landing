@@ -6,7 +6,7 @@ A beautiful and responsive travel website landing page built using only **HTML**
 
 ## 🌐 Live Website
 
-👉 [View Live](https://urvashi80.github.io/travel-landing/)
+👉 [View Live]("https://urvashi80.github.io/Travel-Landing/")
 
 ---
 
